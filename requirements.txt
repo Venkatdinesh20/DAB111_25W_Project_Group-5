@@ -1,4 +1,0 @@
-sqlite
-numpy
-Flask==2.2.2
-pandas==1.5.2
