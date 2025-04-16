@@ -25,4 +25,4 @@ Follow these steps to set up the project on your local machine:
 ### 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/Venkatdinesh20/AmazonProductFlask.git
+git clone https://github.com/Venkatdinesh20/DAB111_25W_Project_Group-5.git
