@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computers & Accessories</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Computers & Accessories</h1>
+    </header>
+
+    <section class="products">
+        <h2>Available Products</h2>
+        <ul>
+            {% for product in products %}
+            <li>
+                <strong>{{ product['name'] }}</strong><br>
+                ₹{{ product['discounted_price'] }} (Discounted) | ₹{{ product['original_price'] }} (Original) | Rating:
+                {{ product['rating'] }}<br>
+                <a href="{{ product['link'] }}">View Product</a>
+            </li>
+            {% else %}
+            <li>No products available in this category.</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <a href="/">Back to Home</a>
+
+    <footer>
+        <p>© 2025 Amazon Products Dashboard | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
