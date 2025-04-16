@@ -15,7 +15,7 @@ This project demonstrates the development of a web application using **Flask** t
 
 Before you begin, ensure you have the following installed:
 
-- **Python*** 3.12
+- **Python** 3.12
 - **pip** pandas, numpy, matplotlib, seaborn, flask, sqlite (Python package installer)
 
 ## Installation
